@@ -1,9 +1,9 @@
 """
-This module contains classes for exporting data in various formats.
-It demonstrates Object-Orientedvvvv Programming (OOP) principles including:
-- Inheritance: Subclasses inherit from the base DataExporter class
-- Polymorphism: Different classes implement the same method (export) differently
-- Encapsulation: Grouping related data and methods into classes
+This module includes classes that are used to export data in different file formats.
+It demonstrates Object-Oriented Programming (OOP) principles including:
+- Inheritance: Child classes extend the base DataExporter class
+- Polymorphism: Each class provides its own implementation of the export method
+- Encapsulation: Data and related functions are organised together within classes
 """
 import csv
 import json
