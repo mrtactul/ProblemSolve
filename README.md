@@ -54,3 +54,50 @@ The application runs using a simple **text-based menu interface (TUI)**.
 - Matplotlib
 - Git & GitHub
 - Object-Oriented Programming (OOP)
+
+  ## 🏗 Project Structure
+  disneyland_reviews.csv Dataset file
+
+main.py → Controls program flow and menus
+tui.py → Handles all user input/output
+process.py → Data filtering and calculations
+visual.py → Charts and visualisations
+exporter.py → OOP-based export system
+
+
+### Module Responsibilities
+
+**main.py**
+- Entry point of the program
+- Manages navigation and integration of modules
+
+**tui.py**
+- Text User Interface
+- Handles prompts, menus, and validation
+
+**process.py**
+- Data loading
+- Filtering and aggregation
+- Statistical calculations
+
+**visual.py**
+- Generates charts using Matplotlib
+
+**exporter.py**
+- Implements OOP export system
+- Uses inheritance and polymorphism
+
+---
+
+## ▶️ How to Run
+
+1. Install Python 3
+2. Install dependencies
+3. Run the program
+
+## 👤 Author
+
+Ionut Ungureanu  
+BSc (Hons) Computer Science  
+Solent University
+
